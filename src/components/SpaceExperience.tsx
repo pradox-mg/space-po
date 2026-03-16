@@ -20,11 +20,12 @@ const ASTEROID_LINKS: Record<AsteroidLinkId, string> = {
 const ASTEROID_ORDER: AsteroidLinkId[] = ['instagram', 'github', 'whatsapp', 'email', 'portfolio']
 
 export const ARABIC_LABELS: Record<AsteroidLinkId, string> = {
-  instagram: 'إنستجرام',
-  github: 'جيت هب',
-  whatsapp: 'واتساب',
-  email: 'إيميل',
-  portfolio: 'الأعمال',
+  instagram: 'instagram',
+  github: 'whatsapp',
+  whatsapp: 'github',
+  email: 'email',
+  portfolio: 'portfolio',
+  
 }
 
 export function SpaceExperience() {
@@ -234,3 +235,4 @@ export function SpaceExperience() {
     </div>
   )
 }
+
