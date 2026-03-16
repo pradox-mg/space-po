@@ -77,7 +77,7 @@ export function Asteroid({ label, position, scale, onClick, mousePos }: Asteroid
 
       {/* ── Persistent Label ── */}
       <Text
-        position={[0, -scale * 0.35 - 0.7, 0]}
+        position={[0, -scale * 0.45 - 1.2, 0]}
         fontSize={0.24}
         color="#f5ebff"
         anchorX="center"
