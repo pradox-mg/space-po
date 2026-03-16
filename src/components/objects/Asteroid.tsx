@@ -18,7 +18,7 @@ interface AsteroidProps {
 
 const GLTF_MODEL_PATH = '/model.glb'
 
-export function Asteroid({ id, label, position, scale, onClick, mousePos }: AsteroidProps) {
+export function Asteroid({ label, position, scale, onClick, mousePos }: AsteroidProps) {
   const groupRef = useRef<THREE.Group>(null!)
   const { scene } = useGLTF(GLTF_MODEL_PATH)
 
