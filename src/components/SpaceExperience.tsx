@@ -11,13 +11,21 @@ export type AsteroidLinkId = 'instagram' | 'github' | 'whatsapp' | 'email' | 'po
 
 const ASTEROID_LINKS: Record<AsteroidLinkId, string> = {
   instagram: 'https://pradoxpr.netlify.app',
-  github: 'https://www.instagram.com/xelvador.ae?igsh=MWxkNngzamUzanRqaw%3D%3D',
-  whatsapp: 'https://github.com/pradox-mg',
+  github: 'https://github.com/pradox-mg',
+  whatsapp: 'https://wa.me/20127270326',
   email: 'https://wa.me/2027270326',
   portfolio: 'mailto:ahmedmakhlof950@gmail.com',
 }
 
 const ASTEROID_ORDER: AsteroidLinkId[] = ['instagram', 'github', 'whatsapp', 'email', 'portfolio']
+
+export const ARABIC_LABELS: Record<AsteroidLinkId, string> = {
+  instagram: 'إنستجرام',
+  github: 'جيت هب',
+  whatsapp: 'واتساب',
+  email: 'إيميل',
+  portfolio: 'الأعمال',
+}
 
 export function SpaceExperience() {
   // -1 = no focus, 0..4 = focused asteroid index
@@ -137,7 +145,7 @@ export function SpaceExperience() {
             pointerEvents: 'none',
           }}
         >
-          {currentLabel} &nbsp;·&nbsp; click to open
+          {ARABIC_LABELS[currentLabel]} &nbsp;·&nbsp; اضغط للفتح
         </div>
       )}
 
@@ -197,7 +205,7 @@ export function SpaceExperience() {
               letterSpacing: '0.2em',
               textTransform: 'uppercase'
             }}>
-              LOADING UNIVERSE...
+              جاري تحميل الكون...
             </div>
           </Html>
         }>
@@ -205,6 +213,7 @@ export function SpaceExperience() {
             currentIndex={currentIndex}
             asteroidOrder={asteroidOrder}
             links={ASTEROID_LINKS}
+            labels={ARABIC_LABELS}
             onAsteroidClick={handleAsteroidClick}
             isWarping={isWarping}
           />
