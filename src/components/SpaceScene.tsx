@@ -36,11 +36,11 @@ export function SpaceScene({
 
   const asteroidConfigs: AsteroidConfig[] = useMemo(
     () => [
-      { id: 'portfolio', position: [0, 0.2, -2], scale: 2.4 },
-      { id: 'instagram', position: [-7.2, 3.8, -5], scale: 2.0 },
-      { id: 'github', position: [10.98, -4.14, -7.12], scale: 2.0 },
-      { id: 'whatsapp', position: [-10.89, -2.8, -8], scale: 2.0 },
-      { id: 'email', position: [8.96, 2.86, -9], scale: 2.0 },
+      { id: 'portfolio', position: [0, 0.2, -2], scale: 2.1 },
+      { id: 'instagram', position: [-7.2, 3.8, -5], scale: 1.6 },
+      { id: 'github', position: [10.98, -4.14, -7.12], scale: 1,6 },
+      { id: 'whatsapp', position: [-10.89, -2.8, -8], scale: 1,6 },
+      { id: 'email', position: [8.96, 2.86, -9], scale: 1,6 },
     ],
     [],
   )
