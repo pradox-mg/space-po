@@ -10,6 +10,7 @@ interface SpaceSceneProps {
   currentIndex: number
   asteroidOrder: AsteroidLinkId[]
   links: Record<AsteroidLinkId, string>
+  labels: Record<AsteroidLinkId, string>
   onAsteroidClick: (index: number) => void
   isWarping: boolean
 }
@@ -24,6 +25,7 @@ export function SpaceScene({
   currentIndex,
   asteroidOrder,
   links,
+  labels,
   onAsteroidClick,
   isWarping,
 }: SpaceSceneProps) {
@@ -34,11 +36,11 @@ export function SpaceScene({
 
   const asteroidConfigs: AsteroidConfig[] = useMemo(
     () => [
-      { id: 'portfolio', position: [0, 0.2, -2], scale: 2.0 },
-      { id: 'instagram', position: [-7.2, 3.8, -5], scale: 3.2 },
-      { id: 'github', position: [10.98, -4.14, -7.12], scale: 3.1 },
-      { id: 'whatsapp', position: [-10.89, -2.8, -8], scale: 3.8 },
-      { id: 'email', position: [8.96, 2.86, -9], scale: 3.6 },
+      { id: 'portfolio', position: [0, 0.2, -2], scale: 11.0 },
+      { id: 'instagram', position: [-7.2, 3.8, -5], scale: 2.2 },
+      { id: 'github', position: [10.98, -4.14, -7.12], scale: 2.2 },
+      { id: 'whatsapp', position: [-10.89, -2.8, -8], scale: 2.2 },
+      { id: 'email', position: [8.96, 2.86, -9], scale: 2.2 },
     ],
     [],
   )
@@ -127,7 +129,7 @@ export function SpaceScene({
           <Asteroid
             key={config.id}
             id={config.id}
-            label={config.id} // Pass the ID as the label
+            label={labels[config.id]} // Pass the Arabic label
             link={links[config.id]}
             position={config.position}
             scale={config.scale}
