@@ -1,0 +1,647 @@
+{
+  "sheetsById": {
+    "Main Scene": {
+      "staticOverrides": {
+        "byObject": {
+          "Ambient Light": {
+            "intensity": 1.31,
+            "color": {
+              "r": 0.47058823529411764,
+              "g": 0,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "Key Light": {
+            "intensity": 1.4000000000000006,
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.8862745098039215,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "Fill Light": {
+            "intensity": 0.06000000000000253,
+            "color": {
+              "r": 0.6705882352941176,
+              "g": 0.29411764705882354,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "Rim Light": {
+            "intensity": 11.649999999999999,
+            "color": {
+              "r": 0.7686274509803922,
+              "g": 0.5098039215686274,
+              "b": 1,
+              "a": 1
+            }
+          },
+          "Asteroid - discord": {
+            "position": {
+              "x": 10.98,
+              "y": -4.1400000000000015,
+              "z": -7.1199999999999966
+            },
+            "scale": {
+              "x": 3.0800000000000027,
+              "y": 2.910000000000003,
+              "z": 1.2100000000000004
+            }
+          },
+          "Asteroid - whatsapp": {
+            "position": {
+              "x": -10.89
+            },
+            "scale": {
+              "x": 2.1900000000000026,
+              "y": 3.000000000000001
+            }
+          },
+          "Asteroid - instagram": {
+            "position": {
+              "x": -7.200000000000001,
+              "y": 3.8
+            }
+          },
+          "Asteroid - email": {
+            "position": {
+              "x": 8.959999999999999,
+              "y": 2.86
+            }
+          },
+          "Asteroids Cluster": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 10,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "Asteroid - whatsapp": {
+            "trackData": {
+              "fIiuax550i": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - whatsapp:[\"scale\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "y4bgYs3BGl",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1.540000000000003
+                  },
+                  {
+                    "id": "ApKpSS5EBX",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 3.1399934489047494
+                  }
+                ]
+              },
+              "BkA44nu8SN": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - whatsapp:[\"scale\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "gxaaZgs6b6",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1.4000000000000017
+                  },
+                  {
+                    "id": "m758BSc6fZ",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.580000000000001
+                  }
+                ]
+              },
+              "Wvc0BIlXaP": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - whatsapp:[\"scale\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "EszGHHA-IX",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "7yYo2V1t-b",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"scale\",\"x\"]": "fIiuax550i",
+              "[\"scale\",\"y\"]": "BkA44nu8SN",
+              "[\"scale\",\"z\"]": "Wvc0BIlXaP"
+            }
+          },
+          "Asteroid - discord": {
+            "trackData": {
+              "PV2GRHIRvo": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - discord:[\"scale\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "W3AuAbcniM",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1.3000000000000034
+                  },
+                  {
+                    "id": "XHWb3ibZyo",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.340000000000003
+                  }
+                ]
+              },
+              "cGOse_Z_lv": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - discord:[\"scale\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "5s5KTQhEEB",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 2.070000000000005
+                  },
+                  {
+                    "id": "QTTJpGkKPl",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.910000000000003
+                  }
+                ]
+              },
+              "rMhL4s6ETP": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - discord:[\"scale\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "xoHSyGJ3SZ",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1.0900000000000003
+                  },
+                  {
+                    "id": "TMXbnZW8Vw",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.2100000000000004
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"scale\",\"x\"]": "PV2GRHIRvo",
+              "[\"scale\",\"y\"]": "cGOse_Z_lv",
+              "[\"scale\",\"z\"]": "rMhL4s6ETP"
+            }
+          },
+          "Asteroid - instagram": {
+            "trackData": {
+              "-DUKnsbCcG": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - instagram:[\"scale\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "Yc6_-xN1zD",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "e10MnK_n7q",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.2999999999999998
+                  }
+                ]
+              },
+              "3bv0v--tXd": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - instagram:[\"scale\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "qhl20D7Hdp",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "vuCUR2g72U",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.4499999999999997
+                  }
+                ]
+              },
+              "-t9RGP3C93": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - instagram:[\"scale\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "TLqAKQuwyP",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"scale\",\"x\"]": "-DUKnsbCcG",
+              "[\"scale\",\"y\"]": "3bv0v--tXd",
+              "[\"scale\",\"z\"]": "-t9RGP3C93"
+            }
+          },
+          "Asteroid - portfolio": {
+            "trackData": {
+              "EnDt5wOpPF": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - portfolio:[\"scale\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "YkF8eZTHXj",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "sWFrZb-LNX",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.33
+                  }
+                ]
+              },
+              "Cm37SxUu8A": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - portfolio:[\"scale\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "bDSjKIRNNW",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "UDXt7sAjjx",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1.4000000000000004
+                  }
+                ]
+              },
+              "S7CdM_y7FY": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - portfolio:[\"scale\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "-HFIVl_zMv",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "xPYYM0fRCB",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.9499999999999997
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"scale\",\"x\"]": "EnDt5wOpPF",
+              "[\"scale\",\"y\"]": "Cm37SxUu8A",
+              "[\"scale\",\"z\"]": "S7CdM_y7FY"
+            }
+          },
+          "Asteroid - email": {
+            "trackData": {
+              "Oxio3Pok0c": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - email:[\"scale\",\"x\"]",
+                "keyframes": [
+                  {
+                    "id": "Q6Mgh6_c6W",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "SAKoPf1_PF",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.2099999999999986
+                  }
+                ]
+              },
+              "88rzAyJK5k": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - email:[\"scale\",\"y\"]",
+                "keyframes": [
+                  {
+                    "id": "wvgpWWyvwh",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "eVkk7JwHfX",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 2.2000000000000037
+                  }
+                ]
+              },
+              "qIZmxV-d09": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroid - email:[\"scale\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "P8KNcAO9n4",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"scale\",\"x\"]": "Oxio3Pok0c",
+              "[\"scale\",\"y\"]": "88rzAyJK5k",
+              "[\"scale\",\"z\"]": "qIZmxV-d09"
+            }
+          },
+          "Asteroids Cluster": {
+            "trackData": {
+              "-8UvDkqJFi": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroids Cluster:[\"scale\",\"x\"]",
+                "keyframes": []
+              },
+              "Fv9pkSlG9Y": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroids Cluster:[\"scale\",\"y\"]",
+                "keyframes": []
+              },
+              "QI_q8X2FiP": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Asteroids Cluster:[\"scale\",\"z\"]",
+                "keyframes": [
+                  {
+                    "id": "X3f2B6qrZu",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 3.2300000000000004
+                  },
+                  {
+                    "id": "GVyTYVdJkU",
+                    "position": 3.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0,
+                      0.63
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"scale\",\"x\"]": "-8UvDkqJFi",
+              "[\"scale\",\"y\"]": "Fv9pkSlG9Y",
+              "[\"scale\",\"z\"]": "QI_q8X2FiP"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "M_aRl4XQK-XG-lS1"
+  ]
+}
