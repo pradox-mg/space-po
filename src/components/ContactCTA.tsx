@@ -4,7 +4,7 @@ export function ContactCTA() {
   const [hovered, setHovered] = useState(false)
 
   const handleContact = () => {
-    window.location.href = 'mailto:your-email@example.com?subject=I want a website like this!'
+    window.location.href = 'mailto:ahmedmakhlof950@gmail.com?subject=I want a website like this!'
   }
 
   return (
