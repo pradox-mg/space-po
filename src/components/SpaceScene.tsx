@@ -68,7 +68,7 @@ export function SpaceScene({
     if (targetConfig) {
       const [x, y, z] = targetConfig.position
       // Scale-aware zoom that leaves room for labels
-      const zoomFactor = 1.4
+      const zoomFactor = 2.2
       const desiredZ = z + (targetConfig.scale * zoomFactor)
       const mouseX = mouse.x * 0.3
       const mouseY = mouse.y * 0.2
