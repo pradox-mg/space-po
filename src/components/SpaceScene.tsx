@@ -36,11 +36,11 @@ export function SpaceScene({
 
   const asteroidConfigs: AsteroidConfig[] = useMemo(
     () => [
-      { id: 'portfolio', position: [0, 0.2, -2], scale: 2.1 },
-      { id: 'instagram', position: [-7.2, 3.8, -5], scale: 1.6 },
-      { id: 'github', position: [10.98, -4.14, -7.12], scale: 1.6 },
-      { id: 'whatsapp', position: [-10.89, -2.8, -8], scale: 1.6 },
-      { id: 'email', position: [8.96, 2.86, -9], scale: 1.6 },
+      { id: 'portfolio', position: [0, 0.2, -2], scale: 11.0 },
+      { id: 'instagram', position: [-7.2, 3.8, -5], scale: 2.2 },
+      { id: 'github', position: [10.98, -4.14, -7.12], scale: 2.2 },
+      { id: 'whatsapp', position: [-10.89, -2.8, -8], scale: 2.2 },
+      { id: 'email', position: [8.96, 2.86, -9], scale: 2.2 },
     ],
     [],
   )
@@ -68,7 +68,7 @@ export function SpaceScene({
     if (targetConfig) {
       const [x, y, z] = targetConfig.position
       // Scale-aware zoom that leaves room for labels
-      const zoomFactor = 1.8
+      const zoomFactor = 1.4
       const desiredZ = z + (targetConfig.scale * zoomFactor)
       const mouseX = mouse.x * 0.3
       const mouseY = mouse.y * 0.2
